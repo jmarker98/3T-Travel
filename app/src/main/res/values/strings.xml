@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Đồng Hương</string>
+    <string name="gioi_thieu">Với mỗi hành khách, Đồng Hương Sông Lam là một thương hiệu vận tải công nghệ chuyên nghiệp, tử tế và đáng tin cậy, với quy mô lớn cùng sự hiểu biết sâu sắc nhu cầu của khách hàng, kết nối mọi hành trình để cung cấp tới khách hàng giải pháp vận chuyển toàn diện, mọi lúc mọi nơi với mức chi phí hợp lý.</string>
+    <string name="sp">DHSL là thương hiệu vận tải công nghệ chuyên nghiệp, cung cấp dịch vụ/ giải pháp toàn diện về vận tải cho khách hàng với mức chi phí hợp lý bao gồm:\n
+            1. Xe giường nằm cao cấp với dịch vụ Wi-Fi, Khăn lạnh, Nước khoáng và Đồ ăn nhẹ\n
+            2. Xe trung chuyển tận nơi trong nội thành Hà Nội\n
+            3. Dịch vụ thuê xe Du lịch\n
+            4. Xe khách theo tuyến</string>
+    <string name="txt1">Nhằm mang đến những giá trị chất lượng hàng đầu Miền Trung, đáp ứng và làm hài lòng những khách hàng khó tính nhất. DHSL xác định các nét tính cách tạo nên giá trị cốt lõi và thành công cho doanh nghiệp: <b> Chuyên nghiệp - Tử tế - Trung thực và Đáng tin cậy.</b></string>
+    <string name="txt2"><b>Chuyên nghiệp:</b> Sự chuyên nghiệp của DHSL được thể hiện qua tinh thần phục vụ Omotenashi: phục vụ khách hàng một cách chu đáo bằng cả trái tim với sự sáng tạo, quan tâm sâu sắc và phán đoán trước mong muốn của khách hàng, chủ động biến nó thành hiện thực.</string>
+    <string name="txt3"><b>Tử tế:</b> DHSL làm việc trên tinh thần hợp tác, giúp đỡ lẫn nhau. Tử tế với mình, với nhân viên, với khách hàng, với đồng nghiệp, với xã hội và ngay cả với những đối thủ cạnh tranh.</string>
+    <string name="txt4"><b>Trung thực và đáng tin cậy:</b> DHSL chia sẻ để nhận lại yêu thương:\n\n
+    <b>Lợi ích khi đến với DHSL:</b>\n\n
+        <b>Đối với khách hàng:</b>\n
+    - Mạng lưới rộng khắp Bắc Miền Trung\n
+    - Đặt vé trực tuyến thuận lợi 24/7 không cần xếp hàng mua vé\n
+    - Thanh toán trực tuyến mọi lúc mọi nơi
+    - Được hưởng đầy đủ mọi quyền lợi và tiện ích hấp dẫn khi đi xe\n
+    - Được phép đánh giá chất lượng nhà xe sau khi sử dụng dịch vụ và tham khảo các đánh giá của khách hàng đã sử dụng trước đó\n
+    - Tiết kiệm thời gian chi phí\n\n
+    <b>Đối với nhà xe:</b>\n
+    - Giảm số lượng ghế trống, tăng doanh thu\n
+    - Quản lý vé xe tự động, hiệu quả</string>
+    <string name="ho_tro">Để được hỗ trợ giải đáp thắc mắc một cách nhanh nhất, hành khách vui lòng gọi điện trực tiếp đến Hotline: (84-96) 9 037 123. DHSL luôn vui lòng và sẵn sàng hỗ trợ khách hàng 24/7\n\n
+    Địa chỉ: Số 52 DV5, Nguyễn Văn Lộc, P. Mộ Lao, Q. Hà Đông, TP. Hà Nội</string>
+    <string name="luuy"><b>Lưu Ý:</b>\nĐối với khách hàng thanh toán bằng phương thức <u>Chuyển Khoản</u> vui lòng làm theo hưỡng dẫn\nKhách Hàng vui lòng chuyển khoản qua\n
+        STK: <b>0987654345678</b>\n
+        Tên tài khoản: <b>Nhà xe Đồng Hương Sông Lam</b>\n
+        Ngân hàng: <b>VP Bank</b>\n
+        Chi Nhánh: <b>Chi nhánh Nghệ An</b>\n
+        Nội dung: [Ten-SoGhe-SoDienThoai]\n
+    Chậm nhất 30p trước khi xe chạy\n
+    Mọi thông tin hỗ trợ vui lòng gọi (84-96) 9 037 123</string>
+    <string name="name_note">Qúy khách xin vui lòng kiểm tra lại thông tin chính xác\ntrước khi đặt vé</string>
+    <string name="DieuKhoan"><b>1.Mục đích áp dụng</b>\n\nChính sách bảo vệ khách hàng này("Chính sách") nhằm đảm bảo an toàn thông tin liên quan đến các tổ chức, cá nhân truy cập và/hoặc giao dịch trên sàn DHSL.VN thuộc quyền sở hữu của công ty DHSL.\n\nChính sách này mô tả cách DHSL.VN tiếp nhận, lưu trữ, sử dụng và bảo vệ thông tin của các tổ chức, cá nhân tham gia truy cập, giao dịch trên sàn DHSL.VN. Nó được hiểu là khách hàng đã đọc, hiểu và đồng ý tuân thủ Chính Sách này, kể cả các phiên bản sửa đổi bổ sung của Chính Sách.\n</string>
+    <string name="Quiche"><b>2. Quy định cụ thể</b>\n\n<b>2.1 Về việc thu thập thông tin</b>\n\nKhách hàng phải cung cấp một số thông tin cần thiết, khách hàng có trách nhiệm đảm bảo những thông tin khách hàng cung cấp là đầy đủ và chính xác và luôn cập nhật thông tin để đảm bảo tính đầy đủ và chính xác.\n\n<b>2.2 Về việc lưu trữ và bảo mật thông tin</b>\n\nThông tin khách hàng cũng như thông tin trao đổi giữa khách hàng và DHSL.VN đều được lưu giữ và bảo mật theo hệ thống của DHSL.VN.\n\n<b>2.3 Về việc sử dụng thông tin khách hàng</b>\n\nDHSL có quyền sử dụng thông tin khách hàng cung cấp để cung cấp các dịch vụ tiện ích, gửi các thông báo trao đổi thông tin giữa khách hàng với DHSL.VN, phát hiện ngăn chặn các hành vi giả mạo phá hoại tài khoản của khách hàng và liên lạc hỗ trợ khách hàng trong nhưng trường hợp đặc biệt.\n\n<b>2.4 Liên hệ và giải đáp thắc mắc</b>\n\nBất kì khi nào khách hàng cần hỗ trợ:\nHãy gọi ngay đến Hotline: <u>(84-96) 9 037 123</u>\nHoặc gửi đến Email: <i>info@dhsl.vn</i>.</string>
+    <string name="HuongDan_SuDung">Mỗi khách hàng sẽ sử dụng số điện thoại của mình để đăng nhập vào ứng dụng và từ thông tin đó có thì họ sẽ bắt đầu chọn lịch trình di chuyển cho mình bằng cách cung cấp các thông tin mà đã được tích hợp sẵn trên ứng dụng với các thao tác đơn giản để có được một vé xe. Trong trường hợp khách hàng muốn hủy một hay nhiều chuyến đi mà mình đã mua từ trước thì chỉ cần chọn tuyến xe có lịch trình muốn hủy đó mà chọn thao tác hủy là ngay lập tức được xóa bỏ chuyến đi ngày hôm đó.\n\nĐể đảm tính công bằng và khách quan cho mỗi khách hàng thì hành khách sẽ có mục chọn chỗ để chọn cho mình một vị trí hợp lý nhấy trên xe và tất nhiên một chỗ sẽ không thể có 2 sự lựa chọn trùng hợp nhau.
+Về vấn đề thanh toán thì khách hàng có 2 sự lựa chọn là chuyển khoản hoặc thanh toán trực tiếp khi lên xe. Hai hình thức này là rất phù hợp với mọi đối tượng khách hàng hiện nay và chức năng là hoàn toàn bình đẳng với mọi khách hàng.</string>
+    <string name="CacBuoc"><b>Bước 1:</b>\nKhách hàng lựa chọn lịch trình tại mục Đặt vé theo tuyến\n\n<b>Bước 2:</b>\nKhách hàng chọn các điểm lên và xuống đồng thời chọn thời gian và ngày khởi hành\n\n<b>Bước 3:</b>\nKhách hàng vui lòng nhập số điện thoại người đi để Nhà xe liên hệ xác nhận\n<b>Bước 4:</b>\nChọn hình thức thanh toán (trực tiếp hoặc chuyển khoản\n\n<b>Bước 5:</b>Khách hàng chọn vị trí ghế phù hợp tại mục chọn chỗ và vị trí ghế sẽ được hiển thị bên phải Và click vào nút Xác nhận thông tin\n\n<b>Bước 6:</b>Cuối cùng, Thông tin khách hàng và lịch trình đi sẽ được hiển thị trên màn hình, Khách hàng phải check lại lần cuối và Click vào nút Đặt vé (hoàn thành) </string>
+</resources>

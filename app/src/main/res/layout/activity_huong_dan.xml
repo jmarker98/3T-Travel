@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu.HuongDan">
+
+    <RelativeLayout
+        android:id="@+id/relHuongDan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2196f3">
+
+        <TextView
+            android:id="@+id/txtXacNhan"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="Hưỡng dẫn sử dụng"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/imgback"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:padding="10dp"
+            android:src="@drawable/back" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrHuongDan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/relHuongDan"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:id="@+id/relHuongDan1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtDauTien"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="@string/HuongDan_SuDung" />
+
+            <TextView
+                android:id="@+id/txtHuongDan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtDauTien"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="15dp"
+                android:text="@string/CacBuoc" />
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196f3"
+    android:padding="5dp"
+    tools:context=".Vecuatoi">
+
+    <RelativeLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="Vé"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imgback"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:padding="10dp"
+            android:src="@drawable/back" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:layout_below="@id/layout1"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttonwhite">
+
+        <LinearLayout
+            android:id="@+id/ln1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="@android:color/black"
+                android:id="@+id/txtdiemlen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Đô Lương"
+                android:padding="5dp" />
+
+            <ImageView
+                android:id="@+id/muiten"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/txtdiemlen"
+                android:padding="5dp"
+                android:src="@drawable/abc" />
+
+            <TextView
+                android:textColor="@android:color/black"
+                android:id="@+id/txtdiemxuong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/muiten"
+                android:hint="Bến xe Nước Ngầm"
+                android:padding="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ln2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ln1"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="@android:color/black"
+                android:id="@+id/vivtri"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="A2 B3"
+                android:padding="5dp" />
+
+            <!--<TextView-->
+            <!--android:id="@+id/txtgiatien"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:padding="5dp"-->
+            <!--android:layout_marginLeft="15dp"-->
+            <!--android:layout_toRightOf="@id/muiten"-->
+            <!--android:hint="360000"/>-->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ln2"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:textColor="@android:color/black"
+                android:id="@+id/ngayDi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="20/4/2019"
+                android:padding="5dp" />
+
+            <TextView
+                android:textColor="@android:color/black"
+                android:id="@+id/txtthoigian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/muiten"
+                android:hint="20:00"
+                android:padding="5dp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnHuyVe"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/layout2"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/backcolor"
+        android:text="Hủy vé"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+</RelativeLayout>

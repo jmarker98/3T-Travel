@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196f3"
+    tools:context=".choncho">
+
+    <RelativeLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgback"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:padding="10dp"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/txtChonCho"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="Chọn Chỗ"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout1"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/imgLaiXe"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/icon_steering_wheel" />
+
+
+        <TextView
+            android:id="@+id/txtCuaLen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="Cửa lên"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrChonCho"
+        android:layout_width="match_parent"
+        android:layout_height="365dp"
+        android:layout_below="@id/rel1"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttonwhite">
+
+        <GridLayout
+            android:id="@+id/grid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:columnCount="3"
+            android:padding="5dp">
+
+            <TextView android:layout_width="115dp" />
+
+            <TextView
+                android:id="@+id/txtTang1"
+                android:layout_width="115dp"
+                android:padding="5dp"
+                android:text="Tầng 1"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView android:layout_width="120dp" />
+
+            <CheckBox
+                android:id="@+id/checkA1"
+                android:layout_width="115dp"
+                android:padding="10dp"
+                android:text="A1" />
+
+            <CheckBox
+                android:id="@+id/checkB1"
+                android:layout_width="115dp"
+                android:padding="10dp"
+                android:text="B1" />
+
+            <CheckBox
+                android:id="@+id/checkC1"
+                android:layout_width="115dp"
+                android:padding="10dp"
+                android:text="C1" />
+
+            <CheckBox
+                android:id="@+id/checkA3"
+                android:layout_width="115dp"
+                android:padding="10dp"
+                android:text="A3" />
+
+            <CheckBox
+                android:id="@+id/checkB3"
+                android:layout_width="115dp"
+                android:padding="10dp"
+                android:text="B3" />
+
+            <CheckBox
+                android:id="@+id/checkC3"
+                android:layout_width="115dp"
+                android:padding="10dp"
+                android:text="C3" />
+
+            <CheckBox
+                android:id="@+id/checkA5"
+                android:layout_width="115dp"
+                android:padding="10dp"
+                android:text="A5" />
+
+            <CheckBox
+                android:id="@+id/checkB5"
+                android:layout_width="115dp"
+                android:padding="10dp"
+                android:text="B5" />
+
+            <CheckBox
+                android:id="@+id/checkC5"
+                android:layout_width="115dp"
+                android:padding="10dp"
+                android:text="C5" />
+
+            <CheckBox
+                android:id="@+id/checkA7"
+                android:layout_width="115dp"
+                android:padding="10dp"
+                android:text="A7" />
+
+            <CheckBox
+                android:id="@+id/checkB7"
+                android:layout_width="115dp"
+                android:padding="10dp"
+                android:text="B7" />
+
+            <CheckBox
+                android:id="@+id/checkC7"
+                android:layout_width="115dp"
+                android:padding="10dp"
+                android:text="C7" />
+
+            <CheckBox
+                android:id="@+id/checkA9"
+                android:layout_width="115dp"
+                android:padding="10dp"
+                android:text="A9" />
+
+            <CheckBox
+                android:id="@+id/checkB9"
+                android:layout_width="115dp"
+                android:padding="10dp"
+                android:text="B9" />
+
+            <CheckBox
+                android:id="@+id/checkC9"
+                android:layout_width="115dp"
+                android:padding="10dp"
+                android:text="C9" />
+
+            <TextView android:layout_width="115dp" />
+
+            <TextView
+                android:id="@+id/txtTang2"
+                android:layout_width="115dp"
+                android:padding="5dp"
+                android:text="Tầng 2"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView android:layout_width="120dp" />
+
+            <CheckBox
+                android:id="@+id/checkA2"
+                android:layout_width="115dp"
+                android:padding="10dp"
+                android:text="A2" />
+
+            <CheckBox
+                android:id="@+id/checkB2"
+                android:layout_width="115dp"
+                android:padding="10dp"
+                android:text="B2" />
+
+            <CheckBox
+                android:id="@+id/checkC2"
+                android:layout_width="115dp"
+                android:padding="10dp"
+                android:text="C2" />
+
+            <CheckBox
+                android:id="@+id/checkA4"
+                android:layout_width="115dp"
+                android:padding="10dp"
+                android:text="A4" />
+
+            <CheckBox
+                android:id="@+id/checkB4"
+                android:layout_width="115dp"
+                android:padding="10dp"
+                android:text="B4" />
+
+            <CheckBox
+                android:id="@+id/checkC4"
+                android:layout_width="115dp"
+                android:padding="10dp"
+                android:text="C4" />
+
+            <CheckBox
+                android:id="@+id/checkA6"
+                android:layout_width="115dp"
+                android:padding="10dp"
+                android:text="A6" />
+
+            <CheckBox
+                android:id="@+id/checkB6"
+                android:layout_width="115dp"
+                android:padding="10dp"
+                android:text="B6" />
+
+            <CheckBox
+                android:id="@+id/checkC6"
+                android:layout_width="115dp"
+                android:padding="10dp"
+                android:text="C6" />
+
+            <CheckBox
+                android:id="@+id/checkA8"
+                android:layout_width="115dp"
+                android:padding="10dp"
+                android:text="A8" />
+
+            <CheckBox
+                android:id="@+id/checkB8"
+                android:layout_width="115dp"
+                android:padding="10dp"
+                android:text="B8" />
+
+            <CheckBox
+                android:id="@+id/checkC8"
+                android:layout_width="115dp"
+                android:padding="10dp"
+                android:text="C8" />
+
+            <CheckBox
+                android:id="@+id/checkA10"
+                android:layout_width="115dp"
+                android:padding="10dp"
+                android:text="A10" />
+
+            <CheckBox
+                android:id="@+id/checkB10"
+                android:layout_width="115dp"
+                android:padding="10dp"
+                android:text="B10" />
+
+            <CheckBox
+                android:id="@+id/checkC10"
+                android:layout_width="115dp"
+                android:padding="10dp"
+                android:text="C10" />
+
+        </GridLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/rel2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/buttonwhite">
+
+        <TextView
+            android:id="@+id/txtSoluong"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Số ghế:"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtSL"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@id/txtSoluong"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/txtTien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/txtSL"
+            android:padding="5dp"
+            android:text="Tiền:"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtTongtien"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/txtTien"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/txtSoGhe"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtSoluong"
+            android:padding="5dp"
+            android:text="Ghế:"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtGhe"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/txtSoluong"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@id/txtSoluong"
+            android:paddingLeft="10dp" />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="1dp"
+            android:layout_below="@id/txtGhe"
+            android:layout_centerInParent="true"
+            android:background="#ff00" />
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtSoGhe"
+            android:layout_centerHorizontal="true">
+
+
+            <Button
+                android:layout_margin="10dp"
+                android:id="@+id/btnOk"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtGhe"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/backcolor"
+                android:text="Tiếp tục"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

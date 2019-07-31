@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196f3"
+    tools:context=".Menu.activity_thongtinkhachhang">
+
+    <RelativeLayout
+        android:id="@+id/layoutInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtXacNhan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="Thông tin cá nhân"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:id="@+id/imgback"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:padding="10dp"
+            android:src="@drawable/back" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:background="@drawable/buttonwhite"
+        android:id="@+id/layout_AddInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layoutInfo">
+
+        <TextView
+            android:id="@+id/txtHoten"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:text="Họ và tên"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editHoten"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtHoten"
+            android:paddingLeft="10dp" />
+
+        <TextView
+            android:id="@+id/txtSdt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editHoten"
+            android:paddingLeft="10dp"
+            android:text="Số điện thoại"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <EditText
+            android:textColor="@android:color/black"
+            android:id="@+id/editSdt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtSdt"
+            android:inputType="number"
+            android:paddingLeft="10dp" />
+    </RelativeLayout>
+
+    <Button
+        android:textSize="20sp"
+        android:background="@drawable/backcolor"
+        android:id="@+id/btnThaydoi"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/layout_AddInfo"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:text="Thay đổi"
+        android:textColor="@android:color/black" />
+
+</RelativeLayout>
